@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+      <record id="americadigital_product_template_only_form_view" model="ir.ui.view">
+          <field name="name">americadigital.product.template.product.form</field>
+          <field name="model">product.template</field>
+          <field name="inherit_id" ref="product.product_template_only_form_view" />
+          <field name="arch" type="xml">
+            <field name="categ_id" position="after">
+                <field name="distribuidor_id" string="Distribuidor"/>
+                <field name="importador_id" string="Importador"/>
+                <field name="mayorista_id" string="Mayorista"/>
+            </field>
+          </field>
+      </record>
+
+    </data>
+</odoo>
