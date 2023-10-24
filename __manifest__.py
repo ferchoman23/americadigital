@@ -9,7 +9,7 @@
     'description': """
 
 """,
-    'depends': ['base','sale','purchase', 'project', 'web_studio', 'industry_fsm_report', 'repair', 'infilefel', 'account'],
+    'depends': ['base','product'],
     'data': [
         'views/product_template_views.xml'
     ],
