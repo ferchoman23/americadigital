@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Taller',
+    'name': 'Americadigital',
     'version': '1.0',
     'category': 'Hidden',
     'sequence': 6,
-    'summary': 'Módulo para Taller',
+    'summary': 'Módulo para Americadigital',
     'description': """
 
 """,
